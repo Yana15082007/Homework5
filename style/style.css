@@ -1,0 +1,448 @@
+.text-position {
+  text-align: center;
+}
+
+.text-position1 {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+.image-position {
+  display: block;
+  margin: auto;
+}
+.image-position1 {
+  display: block;
+  margin: 30px auto 30px auto;
+}
+.image-margin {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.wrapper {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+}
+.wrapper1 {
+  display: flex;
+}
+.left {
+  padding: 10px;
+  margin-right: 100px;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+.right {
+  padding: 10px;
+  margin-left: 100px;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.content {
+  background-color: #e9e9e9;
+  border-radius: 20px;
+  padding: 20px;
+}
+.content-click {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  padding: 5px;
+}
+
+.content-click::after {
+  content: "\25BE";
+  font-size: 30px;
+  padding: 3px;
+  margin-left: auto;
+}
+
+.content-item {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.content-items {
+  padding-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-items-color {
+  text-decoration: none;
+  color: #454545;
+}
+
+.content-items-position {
+  padding: 2px 0px;
+}
+
+.content-items-position a:hover {
+  text-decoration: underline;
+  color: #979696;
+}
+
+.paragraph {
+  margin: 50px auto;
+}
+.paragraph-position {
+  margin: 20px auto 50px auto;
+}
+
+.heading-position {
+  text-align: center;
+  padding: 20px;
+}
+
+.paragraph-position1 {
+  display: block;
+  width: 1000px;
+  margin: 50px auto;
+  font-size: 1rem;
+}
+
+.brazilnut-content,
+.almondnut-content {
+  margin-left: 50px;
+}
+
+.brazilnut-content-items,
+.almondnut-content-items {
+  padding-left: 25px;
+}
+
+.almondnut-content-items-position::marker {
+  color: black;
+}
+
+.brazilnut-content-items-position,
+.almondnut-content-items-position {
+  padding: 5px 0px;
+}
+
+h1.container-heading .wrapper1 > div {
+  padding: 20px;
+}
+
+.brazilnut-content-items-position a {
+  color: #ff7300;
+  text-decoration: none;
+}
+
+.almondnut-content-items-position {
+  color: #ff7300;
+}
+
+.brazilnut-content-items-position a:hover {
+  color: #fdbe8b;
+  text-decoration: underline;
+}
+
+div iframe {
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+.container-heading {
+  margin: 50px auto;
+}
+
+#warning + p {
+  font-weight: bold;
+}
+.size {
+  font-size: 18px;
+}
+
+.width {
+  margin: auto;
+}
+.padding {
+  padding: 5px 30px;
+}
+.margin {
+  margin: 5px;
+}
+.header-size {
+  height: 100px;
+  margin-bottom: 20px;
+}
+.header1 {
+  height: 60px;
+  background-color: #e9e9e9;
+}
+.header2 {
+  height: 40px;
+  background-color: #ff7300;
+}
+.a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+header a:hover {
+  color: #fdbe8b;
+}
+.a1 {
+  text-decoration: none;
+  color: #ff7300;
+}
+
+.a2 {
+  color: #ff7300;
+}
+
+.a3 {
+  text-decoration: none;
+}
+
+.navmargin {
+  padding-top: 10px;
+}
+
+.space {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.fsize {
+  height: 300px;
+  background-color: #e9e9e9;
+}
+
+.form-position {
+  width: 500px;
+  margin: 20px auto;
+  border-color: #ff7300;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.personal,
+.assortment {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.form-items {
+  padding: 5px;
+  width: 400px;
+  margin: auto;
+}
+
+.form-items-content {
+  border-color: #ff7300;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.form-button {
+  width: 125px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.form-button-properties,
+.form2-button-properties {
+  background-color: #ff7300;
+  color: #ffffff;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.form-button-properties:hover,
+.form2-button-properties:hover,
+.button:hover {
+  background-color: #ffc400;
+}
+
+.form-items-content:focus {
+  outline-color: #b1b1b1;
+}
+.form2-position {
+  margin: 20px auto;
+  border-color: #ff7300;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.form2-images {
+  display: block;
+  margin: 5px auto;
+  border-radius: 20px;
+}
+
+.form2-items {
+  padding: 20px;
+  border-style: solid;
+  border-color: #ff7300;
+  border-width: 2px;
+  border-radius: 20px;
+  width: 225px;
+  margin: 20px auto;
+}
+
+.form2-items-content {
+  padding: 4px;
+  margin: 2px;
+  text-align: center;
+}
+
+.form2-button {
+  width: 125px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.select {
+  border-color: #ff7300;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+input[class*="select"]:focus {
+  outline-color: #b1b1b1;
+}
+
+select[class*="select"] {
+  margin: 5px;
+}
+
+input[class*="select"] {
+  margin: 5px;
+  width: 40px;
+}
+
+.articles,
+.comment {
+  display: block;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.articles-items {
+  padding: 10px;
+  width: 250px;
+  margin: 20px auto;
+}
+
+.articles-images {
+  display: block;
+  margin: 10px auto 10px 0px;
+}
+
+.articles-header {
+  margin: 10px auto;
+}
+
+.articles-header a {
+  color: #ff7300;
+  text-decoration: none;
+}
+
+.articles-header a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  background-color: #ff7300;
+  color: #ffffff;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.button-position {
+  width: 125px;
+  margin: 20px 0px 20px auto;
+}
+
+.comment-buttons {
+  background-color: #ff7300;
+  color: #ffffff;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.comment-buttons:hover {
+  background-color: #ffc400;
+}
+
+.button-position1 {
+  margin: 20px 0px 20px auto;
+  width: 200px;
+}
+
+.comment-text {
+  display: block;
+  border-color: #ff7300;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.comment-text:focus {
+  outline-color: #ff7300;
+}
+
+.comment-content {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.comment-item {
+  margin: 20px auto;
+}
+
+.item {
+  cursor: pointer;
+  font-weight: bold;
+  width: 300px;
+  color: #ffffff;
+}
+
+.item-content {
+  border-width: 2px;
+  border-color: #b1b1b1;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.list-position-item {
+  margin: 20px auto;
+}
+
+.list-position {
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ff7300;
+  border-radius: 20px;
+}

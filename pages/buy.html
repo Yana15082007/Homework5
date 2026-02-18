@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy nuts</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <header class="header-size">
+      <div class="header1"></div>
+      <div class="header2">
+        <nav class="text-position navmargin">
+          <a class="a space" href="../index.html">Головна</a>
+          <a class="a space" href="./brazilnut.html">Бразильський горіх</a>
+          <a class="a space" href="./almond.html">Мигдаль</a>
+          <a class="a space" href="./cashew.html">Кеш’ю</a>
+          <a class="a space" href="./macadamia.html">Макадамія</a>
+          <a class="a space" href="./pistachio.html">Фісташка</a>
+          <a class="a space" href="./buy.html">Замовити горіхи</a>
+        </nav>
+      </div>
+    </header>
+    <h1 class="text-position">Замовити горіхи</h1>
+    <form>
+      <div>
+        <fieldset class="form-position">
+          <legend class="personal"><b>Особисті дані</b></legend>
+          <div class="form-items">
+            <div class="form-items">
+              <label for="firstname">Ім’я</label>
+              <input
+                class="form-items-content"
+                type="text"
+                name="firstname"
+                id="firstname"
+              />
+            </div>
+            <div class="form-items">
+              <label for="lastname">Прізвише</label>
+              <input
+                class="form-items-content"
+                type="text"
+                name="lastname"
+                id="lastname"
+              />
+            </div>
+            <div class="form-items">
+              <label for="birthday">Дата народження</label>
+              <input
+                class="form-items-content"
+                type="date"
+                name="birthday"
+                id="birthday"
+              />
+            </div>
+            <div class="form-items">
+              <label for="city">Місто проживання</label>
+              <input
+                class="form-items-content"
+                type="text"
+                name="city"
+                id="city"
+              />
+            </div>
+            <div class="form-items">
+              <label for="email">Ел. пошта</label>
+              <input
+                class="form-items-content"
+                type="email"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="form-items">
+              <label for="password">Пароль</label>
+              <input
+                class="form-items-content"
+                type="password"
+                name="password"
+                id="password"
+              />
+            </div>
+          </div>
+          <div class="form-button">
+            <input
+              class="form-button-properties"
+              type="reset"
+              value="Скинути дані"
+            />
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset class="form2-position">
+          <legend class="assortment"><b>Асортимент горіхів</b></legend>
+          <div class="wrapper1">
+            <div class="form2-items">
+              <img
+                class="form2-images"
+                src="./images/buybrazilnut.jpg"
+                alt="Бразильський горіх"
+                height="150"
+              />
+              <div class="form2-items-content">
+                <label for="brazilnut">
+                  <strong>Бразильський горіх</strong></label
+                >
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  id="brazilnut"
+                  name="brazilnut"
+                  value="brazilnut"
+                />
+              </div>
+              <div class="form2-items-content">
+                <label for="brazilnutGramm">Фасування</label>
+                <select
+                  class="select"
+                  name="brazilnutGramm"
+                  id="brazilnutGramm"
+                >
+                  <option value="100">100 г</option>
+                  <option value="200">200 г</option>
+                  <option value="300">300 г</option>
+                </select>
+              </div>
+              <div class="form2-items-content">
+                <label for="brazilnutAmount">Кількість пачок</label>
+                <input
+                  class="select"
+                  type="number"
+                  name="brazilnutAmount"
+                  min="1"
+                  id="brazilnutAmount"
+                />
+              </div>
+            </div>
+            <div class="form2-items">
+              <img
+                class="form2-images"
+                src="./images/almond.webp"
+                alt="Мигдаль"
+                height="150"
+              />
+              <div class="form2-items-content">
+                <label for="almond"><strong>Мигдаль</strong></label>
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  id="almond"
+                  name="products"
+                  value="almond"
+                />
+              </div>
+              <div class="form2-items-content">
+                <label for="almondGramm">Фасування</label>
+                <select class="select" name="almondGramm" id="almondGramm">
+                  <option value="250">250 г</option>
+                  <option value="400">400 г</option>
+                  <option value="700">700 г</option>
+                </select>
+              </div>
+              <div class="form2-items-content">
+                <label for="almondAmount">Кількість пачок</label>
+                <input
+                  class="select"
+                  type="number"
+                  name="products"
+                  min="1"
+                  id="almondAmount"
+                />
+              </div>
+            </div>
+            <div class="form2-items">
+              <img
+                class="form2-images"
+                src="./images/pistachio.webp"
+                alt="Фісташка"
+                height="150"
+              />
+              <div class="form2-items-content">
+                <label for="pistachio"><strong>Фісташка</strong></label>
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  id="pistachio"
+                  name="products"
+                  value="pistachio"
+                />
+              </div>
+              <div class="form2-items-content">
+                <label for="pistachioGramm">Фасування</label>
+                <select
+                  class="select"
+                  name="pistachioGramm"
+                  id="pistachioGramm"
+                >
+                  <option value="250">250 г</option>
+                  <option value="500">500 г</option>
+                  <option value="700">700 г</option>
+                </select>
+              </div>
+              <div class="form2-items-content">
+                <label for="pistachioAmount">Кількість пачок</label>
+                <input
+                  class="select"
+                  type="number"
+                  name="pistachioAmount"
+                  min="1"
+                  id="pistachioAmount"
+                />
+              </div>
+            </div>
+            <div class="form2-items">
+              <img
+                class="form2-images"
+                src="./images/cashew.jpg"
+                alt="Кеш’ю"
+                height="150"
+              />
+              <div class="form2-items-content">
+                <label for="cashew">
+                  <strong>Кеш’ю</strong>
+                </label>
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="products"
+                  id="cashew"
+                  value="cashew"
+                />
+              </div>
+              <div class="form2-items-content">
+                <label for="cashewGramm">Фасування</label>
+                <select class="select" name="cashewGramm" id="cashewGramm">
+                  <option value="250">250 г</option>
+                  <option value="400">400 г</option>
+                  <option value="600">600 г</option>
+                </select>
+              </div>
+              <div class="form2-items-content">
+                <label for="cashewAmountt">Кількість пачок</label>
+                <input
+                  class="select"
+                  type="number"
+                  name="cashewAmountt"
+                  min="1"
+                  id="cashewAmountt"
+                />
+              </div>
+            </div>
+            <div class="form2-items">
+              <img
+                class="form2-images"
+                src="./images/macadamia.webp"
+                alt="Макадамія"
+                height="150"
+              />
+              <div class="form2-items-content">
+                <label for="macadamia"><strong>Макадамія</strong></label>
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="products"
+                  id="macadamia"
+                  value="macadamia"
+                />
+              </div>
+              <div class="form2-items-content">
+                <label for="macadamiaGramm">Фасування</label>
+                <select
+                  class="select"
+                  name="macadamiaGramm"
+                  id="macadamiaGramm"
+                >
+                  <option value="100">100 г</option>
+                  <option value="250">250 г</option>
+                  <option value="400">400 г</option>
+                </select>
+              </div>
+              <div class="form2-items-content">
+                <label for="macadamiaAmount">Кількість пачок</label>
+                <input
+                  class="select"
+                  type="number"
+                  name="macadamiaAmount"
+                  min="1"
+                  id="macadamiaAmount"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="form2-button">
+            <input
+              class="form2-button-properties"
+              type="reset"
+              value="Скинути дані"
+            />
+          </div>
+        </fieldset>
+      </div>
+      <div class="button-position">
+        <button class="button">Замовити</button>
+      </div>
+    </form>
+    <div>
+      <span class="articles"><b> Статті </b></span>
+      <div class="wrapper1">
+        <div class="articles-items">
+          <a href="../index.html">
+            <img
+              class="articles-images"
+              src="../images/vydy-horikhiv.jpg"
+              alt="Горіхи"
+              height="150"
+              width="250"
+            />
+          </a>
+          <div class="articles-header">
+            <a href="../index.html">
+              <strong>Горіхи. Їх види та користь для організму</strong>
+            </a>
+          </div>
+        </div>
+        <div class="articles-items">
+          <a href="./brazilnut.html">
+            <img
+              class="articles-images"
+              src="./images/brazilnuttree.jpg"
+              alt="Бразильський горіх"
+              height="150"
+          /></a>
+          <div class="articles-header">
+            <a href="./brazilnut.html">
+              <strong
+                >Бразильський горіх. Чим корисний та все, що варто про нього
+                знати.</strong
+              ></a
+            >
+          </div>
+        </div>
+        <div class="articles-items">
+          <a href="./almond.html">
+            <img
+              class="articles-images"
+              src="./images/almond1.webp"
+              alt="Мигдаль"
+              height="150"
+            />
+          </a>
+          <div class="articles-header">
+            <a href="./almond.html"><strong>Мигдаль</strong></a>
+          </div>
+        </div>
+        <div class="articles-items">
+          <a href="./cashew.html">
+            <img
+              class="articles-images"
+              src="./images/cashew1.webp"
+              alt="Кеш’ю"
+              height="150"
+            />
+          </a>
+          <div class="articles-header">
+            <a href="./cashew.html">
+              <strong>Кеш’ю </strong>
+            </a>
+          </div>
+        </div>
+        <div class="articles-items">
+          <a href="./macadamia.html">
+            <img
+              class="articles-images"
+              src="./images/macadamia1.webp"
+              alt="Макадамія"
+              height="150"
+            />
+          </a>
+          <div class="articles-header">
+            <a href="./macadamia.html"> <strong>Макадамія </strong></a>
+          </div>
+        </div>
+        <div class="articles-items">
+          <a href="./pistachio.html">
+            <img
+              class="articles-images"
+              src="./images/fystashka.jpg"
+              alt="Фісташка"
+              height="150"
+            />
+          </a>
+          <div class="articles-header">
+            <a href="./pistachio.html">
+              <strong>Фісташка</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="comment"><b>Залишити відгук</b></span>
+      <div class="comment-content">
+        <form>
+          <div class="comment-item">
+            <label for="message">Ваш коментар:</label>
+          </div>
+          <textarea
+            class="comment-text"
+            name="message"
+            id="message"
+            rows="7"
+            cols="50"
+          >
+Ваш коментар</textarea
+          >
+          <div class="button-position1">
+            <input class="comment-buttons" type="reset" value="Скинути" />
+            <input class="comment-buttons" type="submit" value="Надіслати" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="fsize"></footer>
+  </body>
+</html>
