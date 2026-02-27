@@ -151,6 +151,166 @@ body {
   height: 100vh;
 }
 
+.container_blog,
+.container_nuts {
+  display: flex;
+}
+
+.container_blog-nav {
+  padding: 20px;
+  width: 300px;
+  position: fixed;
+}
+
+.container-blog-heading {
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+  margin-left: 340px;
+}
+
+.container_blog-nav ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.container_blog-nav ul li {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.container_blog-nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container_blog-nav ul li a:hover {
+  color: #c9c9c9;
+}
+
+.container-blog,
+.container-nuts-products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-left: 340px;
+}
+
+.container-nuts-blog {
+  padding: 50px 20px;
+  width: 1000px;
+  margin-left: 340px;
+}
+
+.container-blog-item1 {
+  height: 200px;
+  width: 250px;
+}
+
+.container-nuts-products-item1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border-color: #c6c5c5;
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.container-nuts-products-item1:hover {
+  border-color: #ffac1d;
+  box-shadow: 0 0 5px #afaeae;
+  height: 450px;
+}
+
+.container-nuts-products-item1:hover .nuts-products-item1-buy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nuts-products-item1-img {
+  padding: 20px;
+}
+
+.nuts-products-item1-img img {
+  border-radius: 10px;
+}
+
+.nuts-products-item1-text {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.nuts-products-item1-price {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nuts-products-item1-buy {
+  display: none;
+  height: 150px;
+  width: 300px;
+  padding-top: 5px;
+}
+
+.packaging {
+  display: flex;
+}
+
+.packaging-options {
+  border-style: solid;
+  border-color: #c6c5c5;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 3px 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.packaging-options:hover {
+  border-color: #ffac1d;
+}
+
+.nuts-products-item1-buy-button {
+  background-color: #ff7300;
+  width: 100px;
+  height: 40px;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.nuts-products-item1-buy-button:hover {
+  background-color: #ffc400;
+}
+
+.container-blog-item1 img {
+  border-radius: 10px;
+}
+
+.container-blog-item1 div {
+  padding: 5px 0;
+}
+
+.container-blog-item1 div a {
+  color: black;
+  text-decoration: none;
+}
+.container-blog-item1 div a:hover {
+  color: #c9c9c9;
+}
+
 .container-catalog {
   display: flex;
   flex-wrap: wrap;
@@ -170,7 +330,7 @@ body {
   background-color: orange;
   border-radius: 20px;
   margin-top: 20px;
-  margin-bottom: 1opx;
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: 10px;
   cursor: pointer;
@@ -414,6 +574,7 @@ div iframe {
   height: 100px;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .header1 {
@@ -456,12 +617,50 @@ nav a:hover {
 .navigation {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .material-symbols-outlined {
   color: white;
 }
 
+.account_circle {
+  position: absolute;
+  right: 20px;
+  top: 6px;
+  cursor: pointer;
+  background: none;
+  border-style: none;
+  padding: 0;
+}
+
+.account_circle:focus-within .sign-up {
+  display: block;
+}
+
+.sign-up {
+  display: none;
+  position: absolute;
+  top: 140px;
+  left: -1000px;
+  height: 250px;
+  width: 500px;
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #c6c5c5;
+  background-color: white;
+}
+
+.sign-up-form {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.sign-up-form input {
+  margin: 0 10px;
+}
 .icon-position {
   display: flex;
   align-items: center;
